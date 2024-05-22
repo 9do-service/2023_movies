@@ -4,6 +4,7 @@
 
 在瀏覽輸入 http://127.0.0.1:8000/index.html 開啟瀏覽器查看資料內容
 
+![image](https://github.com/9do-service/2023_movies/blob/master/movies.png)
 
 ## 匯出的 JSON
 
