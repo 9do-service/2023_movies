@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <!-- Ag-Grid -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+    <link rel="stylesheet" href="./ag-grid.css" />
+	<link rel="stylesheet" href="./ag-theme-balham.css" />
+	<link rel="stylesheet" href="./index.css" />
+
+    <!-- Bulma -->
+	<link rel="stylesheet" href="./bulma.min.css" />
+	
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+
+  <body>
+    <h1 class="title"><i class="material-icons">movies</i>台灣 2023 年票房</h1>
+    <h2 class="subtitle" id="data-id"></h2>
+
+    <div class="ag-theme-balham" id="data-grid"></div>
+	<script src="./ag-grid-community.min.noStyle.js"></script>
+	<script defer src="./all.js"></script>
+    <script src="./index.js"></script>
+  </body>
+</html>
